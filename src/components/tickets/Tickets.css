@@ -1,0 +1,28 @@
+.tickets {
+  display: flex;
+  flex-direction: column;  
+}
+
+.ticket {
+    background-color: rgba(228, 175, 255, 0.897);
+    border: 1px dotted darkmagenta;
+    padding: 0.7rem;
+    margin: 0.5rem
+}
+
+.ticket__finish {
+  float: right;
+}
+
+.ticket__delete{
+  float: right;
+  background-color: orangered
+}
+
+.ticket__progress {
+  font-weight: 750;
+}
+
+.ticket__header {
+  font-weight: 1000;
+}
